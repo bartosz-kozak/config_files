@@ -28,6 +28,7 @@ filetype plugin indent on "wymagane
 "   			   Podstawowe ustawienia                   "
 "                                                          "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+syntax enable
 set laststatus=2 "ustawienia dla powerline
 set t_Co=256 "ustawienia dla powerline
 set nu
