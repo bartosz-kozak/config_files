@@ -52,6 +52,8 @@ set si
 set encoding=utf-8
 " ustawia chowek systemu na rejest unnamed
 colorscheme zenburn
+"set background=light "schemat na cwiczenia
+"colorscheme PaperColor "schemat na cwiczenia
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                                          "
 "   			   Ustawienia indent PEP 8                 "
