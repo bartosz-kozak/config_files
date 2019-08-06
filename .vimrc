@@ -50,6 +50,8 @@ set lbr
 set ai
 " sam stara się rozpoznac kiedy zrobic wciecie tekstu
 set si
+set splitbelow
+" przy podziale okna nowe okno poniżej a nie powyżej aktywnego okna
 set encoding=utf-8
 " ustawia chowek systemu na rejest unnamed
 colorscheme zenburn
