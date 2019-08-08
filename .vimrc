@@ -20,9 +20,15 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 " Dodatki muszą być przed tą linią
 call vundle#end()         "wymagane
 filetype plugin indent on "wymagane
+" Ustawienia dla ultisnips
+let g:UltiSnipsExpandTrigger="<c-z>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                                          "
