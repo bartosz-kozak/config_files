@@ -29,7 +29,7 @@ cd ~/.vim/bundle/YouCompleteMe
 python3 install.py
 ```
 
-Kolejnym krikiem jest instalacja zależności dla **vim-markdown**. Dla zainstalowania potrzebnych pakietów wpisujemy:
+Kolejnym krokiem jest instalacja zależności dla **vim-markdown**. Dla zainstalowania potrzebnych pakietów wpisujemy:
 ```
 sudo apt install sudo apt-get install xdg-utils nodejs curl npm -y
 sudo npm -g install instant-markdown-d
