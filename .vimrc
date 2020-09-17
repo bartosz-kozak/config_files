@@ -23,6 +23,7 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+Plugin 'lepture/vim-jinja'
 " Dodatki muszą być przed tą linią
 call vundle#end()         "wymagane
 filetype plugin indent on "wymagane
