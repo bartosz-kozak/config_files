@@ -76,6 +76,9 @@ set encoding=utf-8
 colorscheme zenburn
 "set background=light "schemat na cwiczenia
 "colorscheme PaperColor "schemat na cwiczenia
+" Start vim z NERDTree
+autocmd VimEnter * NERDTree
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                                          "
 "   			   Ustawienia indent PEP 8                 "
