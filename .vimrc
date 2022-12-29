@@ -24,6 +24,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 Plugin 'lepture/vim-jinja'
+Plugin 'LukeGoodsell/nextflow-vim'
 " Dodatki muszą być przed tą linią
 call vundle#end()         "wymagane
 filetype plugin indent on "wymagane
