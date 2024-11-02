@@ -24,7 +24,6 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 Plugin 'lepture/vim-jinja'
-Plugin 'LukeGoodsell/nextflow-vim'
 " Dodatki muszą być przed tą linią
 call vundle#end()         "wymagane
 filetype plugin indent on "wymagane
@@ -79,6 +78,16 @@ colorscheme zenburn
 "colorscheme PaperColor "schemat na cwiczenia
 " Start vim z NERDTree
 autocmd VimEnter * NERDTree
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                                          "
+"   			   Własne komendy i przypisania            "
+"                                                          "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Open a new tab with NERDTree and create or edit a new file
+command! -nargs=1 TabNewFile tabnew | NERDTree | wincmd p | execute 'edit' <q-args>
+" Edit an existing file in a new tab with NERDTree
+command! -nargs=1 TabEditFile tabnew | NERDTree | wincmd p | execute 'edit' <q-args>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                                          "
